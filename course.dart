@@ -5534,10 +5534,14 @@ Course(
       nextAvailableDate: 'May 06, 2025',
       description: 'Cybersecurity has become a top priority for enterprises adapting to the post-COVID world, where remote work has shifted the security perimeter to workers identities and devices. In this new landscape, cybersecurity is as critical as internet access itself. This course from EC-Council is designed for the world’s largest work-from-home experiment. Studies and news reports have ...',
       outline: null,
-      prerequisites: null,
-      whoShouldAttend: null,
-      importantNotes: null,
-      feeStructure: null,
+      prerequisites: 'Prior knowledge of SQL is highly recommended. Linux knowledge will be helpful.',
+      whoShouldAttend: 'This course is intended for executives, managers, consultants, business analysts, operation personnel, programmers, architects, administrators and data analysts who want a foundational overview of the key components required to effectively understand and analyse Big Data. Familiarity working with computers and business applications is assumed. Programming experience is beneficial but not required.',,                  
+      importantNotes: 'Must attend at least 75% of the course before being eligible to take the assessments. The course completion requirements include attendance of at least 75% and being declared as competent during the assessments: Written Assessment, Practical Performance, Oral Interview.',
+      feeStructure: {
+        'Full Course Fee': {'Price': '\$3,215.50'},
+        'SG Citizens aged 21 - 39 years old / PRs aged 21 years old and above': {'Individual': '\$1,740.50', 'Company Sponsored (Non-SME)': '\$1,740.50', 'Company Sponsored (SME)': '\$1,150.50'},
+        'SG Citizens age 40 years old and above': {'Individual': '\$1,150.50', 'Company Sponsored (Non-SME)': '\$1,150.50', 'Company Sponsored (SME)': '\$1,150.50'},
+      },
     ),
     Course(
       id: '794',
